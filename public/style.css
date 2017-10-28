@@ -1,0 +1,95 @@
+body {
+    font-size: 14px;
+}
+a {
+    color: #f1f1f1 !important;
+}
+li:hover {
+    color: inherit;
+}
+a.active{
+    background: #f36f38;
+    color: #f1f1f1;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #f1f1f1;
+    background-color:  #f36f38;
+}
+
+
+.navbar {
+    border-radius: 0;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.mobile-list-box {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #333;
+    display: inline-block;
+}
+
+.sub-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.rating-box {
+    background: #f36f36;
+    padding: 4px;
+    width: 4%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+ul.desc-list {
+    -webkit-padding-start: 1.1em;
+    margin: 1em 0;
+}
+.item-price {
+    color: #d21f30;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: right;
+    clear: right;
+}
+
+.checkbox-container label {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.compare-select-container {
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+}
+.primary-button {
+    background: rgb(89,109,120);
+    text-align: center;
+    color: #f1f1f1;
+    padding: 1em 3em;
+    border: none;
+}
+
+.primary-button div {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f36f36;
+    line-height: 20px;
+    display: inline-block;
+}

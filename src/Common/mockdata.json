@@ -1,0 +1,154 @@
+[{
+    "AS575ELAB4212ASGAMZ-85961391": {
+        "sku": "AS575ELAB4212ASGAMZ-85961391",
+        "productName": "Redmi Note 4 (Gold, 64GB)",
+        "mainSpecification": "4 GB  RAM",
+        "rating": "4.4",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "13MP Rear Camera | 5MP Front Camera",
+            "4100 mAh Li-Polymer Battery",
+            "Qualcomm Snapdragon 625 64-bit Octa Core 2GHz Processor",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 258,
+        "specialPrice": 150,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile1.jpeg"
+    },
+    "AS575ELAB4234ASGAMZ-85961391": {
+        "sku": "AS575ELAB4234ASGAMZ-85961391",
+        "productName": "Redmi Note 4 (Black, 64 GB)",
+        "mainSpecification": "4 GB  RAM",
+        "rating": "4.7",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "13MP Rear Camera | 5MP Front Camera",
+            "4100 mAh Li-Polymer Battery",
+            "Qualcomm Snapdragon 625 64-bit Octa Core 2GHz Processor",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 200,
+        "specialPrice": 175,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile2.jpeg"
+    },
+    "AS575ELLG4212ASGAMZ-85961391": {
+        "sku": "AS575ELLG4212ASGAMZ-85961391",
+        "productName": "Yxtel 2202",
+        "mainSpecification": "Pink",
+        "rating": "4.8",
+        "productDescription": [
+            "64 MB RAM | 64 MB ROM |",
+            "1.8 inch Display",
+            "1.3MP Rear Camera",
+            "1000 mAh Battery"
+        ],
+        "price": 258,
+        "specialPrice": 150,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile3.jpeg"
+    },
+    "AS575ELAB4212AZXAMZ-85961391": {
+        "sku": "AS575ELAB4212AZXAMZ-85961391",
+        "productName": "Mi A1 (Black, 64 GB)",
+        "mainSpecification": "4 GB RAM",
+        "rating": "4.4",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "12MP + 12MP Dual Rear Camera | 5MP Front Camera",
+            "3080 mAh Li-polymer Battery",
+            "Qualcomm Snapdragon 625 64 bit Octa Core 2GHz Processor",
+            "Android Nougat 7.1.2 | Stock Android Version",
+            "Android One Smartphone - with confirmed upgrades to Android Oreo and Android P",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 350,
+        "specialPrice": 275,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile4.jpeg"
+    },
+    "AS575ELAB4212ABXAMZ-85961391": {
+        "sku": "AS575ELAB4212ABXAMZ-85961391",
+        "productName": "Mi A1 (Black, 64 GB)",
+        "mainSpecification": "4 GB RAM",
+        "rating": "4.4",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "12MP + 12MP Dual Rear Camera | 5MP Front Camera",
+            "3080 mAh Li-polymer Battery",
+            "Qualcomm Snapdragon 625 64 bit Octa Core 2GHz Processor",
+            "Android Nougat 7.1.2 | Stock Android Version",
+            "Android One Smartphone - with confirmed upgrades to Android Oreo and Android P",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 350,
+        "specialPrice": 275,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile3.jpeg"
+    },
+    "AS575ELLG4212ASGAMZ-81061391": {
+        "sku": "AS575ELLG4212ASGAMZ-81061391",
+        "productName": "Yxtel 2202",
+        "mainSpecification": "Pink",
+        "rating": "4.8",
+        "productDescription": [
+            "64 MB RAM | 64 MB ROM |",
+            "1.8 inch Display",
+            "1.3MP Rear Camera",
+            "1000 mAh Battery"
+        ],
+        "price": 258,
+        "specialPrice": 150,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile1.jpeg"
+    },
+    "AS575ELAB4212ASGAMZ-859122391": {
+        "sku": "AS575ELAB4212ASGAMZ-859122391",
+        "productName": "Redmi Note 4 (Gold, 64GB)",
+        "mainSpecification": "4 GB  RAM",
+        "rating": "4.4",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "13MP Rear Camera | 5MP Front Camera",
+            "4100 mAh Li-Polymer Battery",
+            "Qualcomm Snapdragon 625 64-bit Octa Core 2GHz Processor",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 258,
+        "specialPrice": 150,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile2.jpeg"
+    },
+    "AS575ELAB4321S74AMZ-859122391": {
+        "sku": "AS575ELAB4321S74AMZ-859122391",
+        "productName": "Redmi Note 4 (Gold, 64GB)",
+        "mainSpecification": "4 GB  RAM",
+        "rating": "4.4",
+        "productDescription": [
+            "4 GB RAM | 64 GB ROM | Expandable Upto 128 GB",
+            "5.5 inch Full HD Display",
+            "13MP Rear Camera | 5MP Front Camera",
+            "4100 mAh Li-Polymer Battery",
+            "Qualcomm Snapdragon 625 64-bit Octa Core 2GHz Processor",
+            "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+        ],
+        "price": 258,
+        "specialPrice": 150,
+        "inStock": true,
+        "availableLocation": "Singapore", 
+        "imageUrl": "/images/mobile3.jpeg"
+    }
+}]
