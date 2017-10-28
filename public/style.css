@@ -66,6 +66,17 @@ ul.desc-list {
     clear: right;
 }
 
+.mobile-name {
+    margin-top: 0.7em;
+}
+
+.compare-price {
+    color: #d21f30;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0.7em 0;
+}
+
 .checkbox-container label {
     font-weight: normal;
     font-size: 1em;
@@ -92,4 +103,27 @@ ul.desc-list {
     background: #f36f36;
     line-height: 20px;
     display: inline-block;
+}
+
+.image-container {
+
+}
+
+.image-container img {
+    margin: 0 auto;
+}
+
+.compare-title-box {
+    border: 1px solid #dedede;
+    padding: 1em;
+}
+
+.compare-title {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.item-number {
+    font-size: 1.2em;
+    color: #333;
 }

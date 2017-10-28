@@ -15,18 +15,25 @@ class MobileList extends Component {
     onAddToCompare({target}) {
         if(!target.checked) {
             this.setState({
-                itemsToCompare: this.state.itemsToCompare.filter((_, i) => i !== index)
+                itemsToCompare: this.state.itemsToCompare.filter((_, i) => i !== this.state.itemsToCompare.indexOf(target.value))
             }, function(){
                 this.state.totalItems = this.state.itemsToCompare.length;
                 this.selectedItems = this.state.itemsToCompare.join();
             });
         } else {
-            this.setState({
-                itemsToCompare: [...this.state.itemsToCompare, target.value]
-            }, function() {
-                this.state.totalItems = this.state.itemsToCompare.length;
-                this.selectedItems = this.state.itemsToCompare.join();
-            });
+            if(this.state.totalItems <= 3 && this.state.itemsToCompare.indexOf(target.value) === -1) {
+                this.setState({
+                    itemsToCompare: [...this.state.itemsToCompare, target.value]
+                }, function() {
+                    this.state.totalItems = this.state.itemsToCompare.length;
+                    this.selectedItems = this.state.itemsToCompare.join();
+                });
+            } else {
+                alert('Please select at most 3');
+                target.checked = false;
+                return false;
+            }
+            
         }
     }
     render() {

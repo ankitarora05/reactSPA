@@ -34,7 +34,7 @@
         "price": 200,
         "specialPrice": 175,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "Thailand", 
         "imageUrl": "/images/mobile2.jpeg"
     },
     "AS575ELLG4212ASGAMZ-85961391": {
@@ -51,7 +51,7 @@
         "price": 258,
         "specialPrice": 150,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "Vietnam", 
         "imageUrl": "/images/mobile3.jpeg"
     },
     "AS575ELAB4212AZXAMZ-85961391": {
@@ -72,7 +72,7 @@
         "price": 350,
         "specialPrice": 275,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "Cambodia", 
         "imageUrl": "/images/mobile4.jpeg"
     },
     "AS575ELAB4212ABXAMZ-85961391": {
@@ -93,7 +93,7 @@
         "price": 350,
         "specialPrice": 275,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "India", 
         "imageUrl": "/images/mobile3.jpeg"
     },
     "AS575ELLG4212ASGAMZ-81061391": {
@@ -110,7 +110,7 @@
         "price": 258,
         "specialPrice": 150,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "India", 
         "imageUrl": "/images/mobile1.jpeg"
     },
     "AS575ELAB4212ASGAMZ-859122391": {
@@ -129,7 +129,7 @@
         "price": 258,
         "specialPrice": 150,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "Vietnam", 
         "imageUrl": "/images/mobile2.jpeg"
     },
     "AS575ELAB4321S74AMZ-859122391": {
@@ -148,7 +148,7 @@
         "price": 258,
         "specialPrice": 150,
         "inStock": true,
-        "availableLocation": "Singapore", 
+        "availableLocation": "China", 
         "imageUrl": "/images/mobile3.jpeg"
     }
 }]

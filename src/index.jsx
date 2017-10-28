@@ -14,7 +14,7 @@ render(
     <Router history={browserHistory}>
         <Route path="/" component={MasterMobileComponent} data={data}>
             <IndexRoute component={Mobile} data={data}/>
-            <Route path="/mobiles?mobileSku" component={MobileCompare} data={data}/>
+            <Route path="/mobiles" component={MobileCompare} data={data}/>
         </Route>
     </Router>,
     document.getElementById('container')

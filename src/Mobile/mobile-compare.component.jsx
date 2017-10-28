@@ -7,35 +7,32 @@ class MobileCompare extends MasterMobielComponent {
         browserHistory.push('/mobiles');
     }
     render(){
-        const cars = this.props.route.data;
-        const id = this.props.params.id;
-        const car = cars.filter(car => {
-            if(car.id == id) {
-                return car;
-            }
+        var self = this;
+        self.mobileSkuList = this.props.location.query.mobileSku.split(',');
+        self.mobilesDetails = this.props.route.data[0];
+        self.mobileCompareList = [];
+        self.mobileSkuList.forEach(function(item){
+            self.mobileCompareList.push(self.mobilesDetails[item]);
         });
-
-        return (
-            <div>
-                <h1>{car[0].name}</h1>
-                <div className="row">
-                    <div className="col-sm-6 col-md-4">
-                        <div className="thumbnail">
-                            <img src={car[0].media} alt={car[0].name} />
-                        </div>
+        const compareNode = self.mobileCompareList.map(function(mobile){
+            return (
+                <div className="col-xs-3 compare-title-box">
+                    <div className="image-container">
+                        <img src={mobile.imageUrl} className="img-responsive"/>
                     </div>
-                    <div className="col-sm-6 col-md-4">
-                       <ul>
-                           <li><strong>Model</strong>: {car[0].model}</li>
-                           <li><strong>Make</strong>: {car[0].make}</li>
-                           <li><strong>Year</strong>: {car[0].year}</li>
-                           <li><strong>Price</strong>: {car[0].price}</li>
-                       </ul>
-                    </div>
-                    <div className="col-md-12">
-                        <button className="btn btn-default" onClick={this.handleRedirect.bind(this)}>Go to Mobiles</button>
-                    </div>
+                    <div className="mobile-name">{mobile.productName}</div>
+                    <div className="compare-price">SGD {mobile.price}</div>
+                    <div className="available-in">Available At: {mobile.availableLocation}</div>
                 </div>
+            )
+        });
+        return (
+            <div className="col-xs-12">
+                <div className="col-xs-3">
+                    <div className="compare-title">Compare</div>
+                    <div className="item-number">{self.mobileCompareList.length} items</div>
+                </div>
+                {compareNode}
             </div>
         );
     }
