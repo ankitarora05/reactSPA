@@ -8,7 +8,7 @@ React, React-Router, Webpack
 
 ### How do I get set up? ###
 * git clone https://github.com/ankitarora05/reactSPA.git
-* mkdir reactSPA
+* cd reactSPA
 * npm install
 * npm run build
 * npm run start
