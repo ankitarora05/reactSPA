@@ -6,41 +6,31 @@ class MobileList extends Component {
         super(props);
         this.onAddToCompare = this.onAddToCompare.bind(this);
         this.state = {
-            itemsToCompare: [],
-            totalItems: 0,
-            isChecked: true
+            totalItems: Number(0)
         };
         this.selectedItems = '';
+        this.itemsToCompare = [];
     }
     onAddToCompare({target}) {
-        if(!target.checked) {
-            this.setState({
-                itemsToCompare: this.state.itemsToCompare.filter((_, i) => i !== this.state.itemsToCompare.indexOf(target.value))
-            }, function(){
-                this.state.totalItems = this.state.itemsToCompare.length;
-                this.selectedItems = this.state.itemsToCompare.join();
-            });
-        } else {
-            if(this.state.totalItems <= 3 && this.state.itemsToCompare.indexOf(target.value) === -1) {
-                this.setState({
-                    itemsToCompare: [...this.state.itemsToCompare, target.value]
-                }, function() {
-                    this.state.totalItems = this.state.itemsToCompare.length;
-                    this.selectedItems = this.state.itemsToCompare.join();
-                });
-            } else {
-                alert('Please select at most 3');
-                target.checked = false;
-                return false;
-            }
+        let arrayIndex = this.itemsToCompare.indexOf(target.value); 
+        if(this.itemsToCompare.length === 0 || arrayIndex === -1) {
+            this.setState({ 
+                totalItems: this.state.totalItems + 1,
+            }, console.log(this.itemsToCompare));
+            this.itemsToCompare = this.itemsToCompare.concat(target.value);
+            this.selectedItems = this.itemsToCompare.join();
             
+        } else {
+            this.itemsToCompare = this.itemsToCompare.filter((_, i) => i !== arrayIndex);
+            this.selectedItems = this.itemsToCompare.join();
+            this.setState({
+                totalItems: this.state.totalItems - 1,
+            }, console.log(this.itemsToCompare));
         }
     }
     render() {
         var self = this;
-        // Get data from route props
         self.mobileData = this.props.route.data;
-        // Map through cars and return linked cars
         self.mobileList = [];
         Object.keys(self.mobileData[0]).forEach(function (key) {
             self.mobileList.push(self.mobileData[0][key]);
@@ -53,7 +43,7 @@ class MobileList extends Component {
                             <img src={mobile.imageUrl} alt={mobile.productName} className="img-responsive" />
                         </div>
                         <div className="checkbox checkbox-container">
-                            <label><input type="checkbox" value={mobile.sku} onChange={this.onAddToCompare.bind(this)}/>Add to Compare</label>
+                            <label><input type="checkbox" value={mobile.sku} id={mobile.sku} onChange={this.onAddToCompare.bind(this)}/>Add to Compare</label>
                         </div>
                     </div>
                     <div className="col-xs-10 no-padding">
