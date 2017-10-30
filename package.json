@@ -7,7 +7,7 @@
     "watch": "webpack -d --watch",
     "build": "webpack",
     "serve": "serve ./public",
-    "start": "nodemon"
+    "start": "node index.js"
   },
   "author": "Ankit Arora",
   "license": "",
