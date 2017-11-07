@@ -1,7 +1,7 @@
 {
   "name": "lazada-comparator",
   "version": "1.0.0",
-  "description": "Single Page Application for Products Comparision at Lazada",
+  "description": "Single Page Application for Products Comparision",
   "main": "index.js",
   "scripts": {
     "watch": "webpack -d --watch",
